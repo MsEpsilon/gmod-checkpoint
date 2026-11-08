@@ -1,0 +1,9 @@
+ENT.Type = "anim"
+ENT.Base = "base_gmodentity"
+ENT.PrintName = "Spawn Point"
+ENT.Author = "MsEpsilon"
+ENT.Category = "Checkpoint gamemode"
+ENT.Contact = "STEAM_0:1:12345678"
+ENT.Purpose = "Spawn point for players."
+ENT.Spawnable = true
+ENT.Icon = "vgui/entities/chkgm-spawnpoint"

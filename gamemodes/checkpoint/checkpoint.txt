@@ -1,0 +1,323 @@
+"superkillers"
+{
+	"base"		    "base"
+	"title"		    "Checkpoint"
+	"maps"		    "chk"
+	"category"	    "pve"
+	"menusystem"	"1"
+
+	"settings"
+	{
+		1
+		{
+			"name"		"chk_bots_objective"
+			"text"		"Bots per objective"
+			"help"		"Number of bots per objective."
+			"type"		"Numeric"
+			"default"	"15"
+			"singleplayer"  "1"
+		}
+
+		2
+		{
+			"name"		"chk_bots_respawn_enable"
+			"text"		"Toggle bot respawning."
+			"help"		"If true, bots will keep spawning."
+			"type"		"CheckBox"
+			"default"	"1"
+			"singleplayer"  "1"
+		}
+
+		3
+		{
+			"name"		"chk_bots_respawn_time"
+			"text"		"Bot spawn rate"
+			"help"		"Specifies how often bots spawn in number of seconds."
+			"type"		"Number"
+			"default"	"45"
+			"singleplayer"  "1"
+		}
+
+		4
+		{
+			"name"		"chk_counterattack_time"
+			"text"		"Counter attack time (s)"
+			"help"		"Maximum counterattack duration in seconds. Defeating one boss per 30 seconds of configured duration also ends the counterattack."
+			"type"		"Numeric"
+			"default"	"60"
+			"singleplayer"  "1"
+		}
+
+		5
+		{
+			"name"		"chk_counterattack_chance"
+			"text"		"Counter attack chance"
+			"help"		"A percentage (0-100) specifying the chance that an counter attack is triggered. 0 = Disabled."
+			"type"		"Numeric"
+			"default"	"60"
+			"singleplayer"  "1"
+		}
+
+		6
+		{
+			"name"		"chk_counterattack_final_allow"
+			"text"		"Allow FINAL Counter attacks"
+			"help"		"If enabled, completing the last objective would ALWAYS trigger an final counterattack."
+			"type"		"CheckBox"
+			"default"	"1"
+			"singleplayer"  "1"
+		}
+
+
+		7
+		{
+			"name"		"chk_counterattack_final_time"
+			"text"		"FINAL Counter attack time(s)"
+			"help"		"Maximum final counterattack duration in seconds. Defeating one boss per 30 seconds of configured duration also ends the counterattack."
+			"type"		"Numeric"
+			"default"	"180"
+			"singleplayer"  "1"
+		}
+
+		8
+		{
+			"name"		"chk_editmode"
+			"text"		"Editing mode"
+			"help"		"If true, allows editing where objectives are placed."
+			"type"		"CheckBox"
+			"default"	"0"
+			"singleplayer"  "1"
+		}
+
+		9
+		{
+			"name" "chk_enemy_classes"
+			"text" "Enemy classes"
+			"help" "Space-separated enemy NPC classes spawned inside patrol radii."
+			"type" "String"
+			"default" "npc_combine_s npc_metropolice"
+			"singleplayer" "1"
+		}
+
+		10
+		{
+			"name" "chk_enemy_weapons"
+			"text" "Enemy weapons"
+			"help" "Space-separated weapon classes randomly given to enemy NPCs."
+			"type" "String"
+			"default" "weapon_shotgun weapon_smg1 weapon_ar2 weapon_pistol"
+			"singleplayer" "1"
+		}
+
+		11
+		{
+			"name" "chk_enemy_boss"
+			"text" "Boss enemy types"
+			"help" "Space-separated boss NPC classes cycled through as bosses are defeated during a counterattack."
+			"type" "String"
+			"default" "npc_hunter"
+			"singleplayer" "1"
+		}
+
+		12
+		{
+			"name" "chk_enemy_boss_weapon"
+			"text" "Boss weapons"
+			"help" "Space-separated weapon classes randomly given to boss NPCs."
+			"type" "String"
+			"default" ""
+			"singleplayer" "1"
+		}
+
+		13
+		{
+			"name" "chk_scenario"
+			"text" "Scenario to load at startup"
+			"help" "Scenario to load at startup. Leave empty to load the first saved scenario made for the current map."
+			"type" "String"
+			"default" ""
+			"singleplayer" "1"
+		}
+
+		14
+		{
+			"name"		"chk_bots_max"
+			"text"		"Maximum number of NPCs that can exist."
+			"help"		"Maximum number of bots at a time."
+			"type"		"Numeric"
+			"default"	"60"
+			"singleplayer"  "1"
+		}
+
+		15
+		{
+			"name"		"chk_objective_time"
+			"text"		"Objective capture time (s)"
+			"help"		"Time required to capture an objective. Minimum 20 seconds."
+			"type"		"Numeric"
+			"default"	"20"
+			"singleplayer"  "1"
+		}
+
+		16
+		{
+			"name"		"chk_objective_health"
+			"text"		"Weapons cache health"
+			"help"		"How much health an weapons cache does have"
+			"type"		"Numeric"
+			"default"	"400"
+			"singleplayer"  "1"
+		}
+
+		17
+		{
+			"name" "chk_weapon_set1"
+			"text" "Weapon set 1"
+			"help" "Weapon slot 1 for spawn weapons"
+			"type" "Text"
+			"default" "weapon_sand_mk18 weapon_sand_mcx weapon_sand_m4a1 weapon_sand_akm"
+			"singleplayer" "1"
+		}
+
+		18
+		{
+			"name" "chk_weapon_set1_ammo"
+			"text" "Weapon set 1 mags"
+			"help" "Ammo given for the first set in mags"
+			"type" "Numeric"
+			"default" "2"
+			"singleplayer" "1"
+		}
+
+		19
+		{
+			"name" "chk_weapon_set2"
+			"text" "Weapon set 2"
+			"help" "Weapon slot 2 for spawn weapons"
+			"type" "Text"
+			"default" "weapon_sand_m45a1 weapon_sand_vanta9 weapon_sand_pf940 weapon_sand_deagle weapon_sand_m9"
+			"singleplayer" "1"
+		}
+
+		20
+		{
+			"name" "chk_weapon_set2_ammo"
+			"text" "Weapon set 2 mags"
+			"help" "Ammo given for the second set in mags"
+			"type" "Numeric"
+			"default" "2"
+			"singleplayer" "1"
+		}
+
+		21
+		{
+			"name" "chk_weapon_set3"
+			"text" "Weapon set 3"
+			"help" "Weapon slot 3 for spawn weapons"
+			"type" "Text"
+			"default" "weapon_frag weapon_slam"
+			"singleplayer" "1"
+		}
+
+		22
+		{
+			"name" "chk_weapon_set3_ammo"
+			"text" "Weapon set 3 mags"
+			"help" "Ammo given for the third set in mags"
+			"type" "Numeric"
+			"default" "3"
+			"singleplayer" "1"
+		}
+
+		23
+		{
+			"name" "chk_weapon_set4"
+			"text" "Weapon set 4"
+			"help" "Weapon slot 4 for spawn weapons"
+			"type" "Text"
+			"default" "weapon_fists weapon_crowbar weapon_stunstick"
+			"singleplayer" "1"
+		}
+
+		24
+		{
+			"name" "chk_weapon_set4_ammo"
+			"text" "Weapon set 4 mags"
+			"help" "Ammo given for the fourth set in mags"
+			"type" "Numeric"
+			"default" "1"
+			"singleplayer" "1"
+		}
+
+		23
+		{
+			"name" "chk_weapon_set5"
+			"text" "Weapon set 5"
+			"help" "Weapon slot 5 for spawn weapons"
+			"type" "Text"
+			"default" "weapon_medkit"
+			"singleplayer" "1"
+		}
+
+		24
+		{
+			"name" "chk_weapon_set5_ammo"
+			"text" "Weapon set 5 mags"
+			"help" "Ammo given for the fifth set in mags"
+			"type" "Numeric"
+			"default" "0"
+			"singleplayer" "1"
+		}
+
+		25
+		{
+			"name"		"chk_bots_objective_waves"
+			"text"		"Number of waves"
+			"help"		"Maximum number of bot waves spawned at each objective."
+			"type"		"Numeric"
+			"default"	"5"
+			"singleplayer"  "1"
+		}
+
+		26
+		{
+			"name" "chk_objective_time_limit"
+			"text" "Time allocated per objective (minutes)"
+			"help" "Maximum time in minutes allowed to capture each objective."
+			"type" "Numeric"
+			"default" "15"
+			"singleplayer" "1"
+		}
+
+		27
+		{
+			"name" "chk_weapon_ent1"
+			"text" "Loadout entities set1"
+			"help" "Loadout entities can can be used by the player"
+			"type" "Text"
+			"default" "arctic_nvg_gpnvg_wp arctic_nvg_n15 arctic_nvg_pvs14_mc"
+			"singleplayer" "1"
+		}
+
+		28
+		{
+			"name" "chk_weapon_ent2"
+			"text" "Loadout entities set2"
+			"help" "Loadout entities can can be used by the player"
+			"type" "Text"
+			"default" ""
+			"singleplayer" "1"
+		}
+
+		29
+		{
+			"name" "chk_weapon_ent3"
+			"text" "Loadout entities set3"
+			"help" "Loadout entities that can be used by the player"
+			"type" "Text"
+			"default" ""
+			"singleplayer" "1"
+		}
+
+	}
+}
